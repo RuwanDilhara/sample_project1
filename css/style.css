@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+
+body{
+    background-color: black;
+    background-image:url(/img/image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sampleID{
+    background-color:rgba(10, 139, 90, 0.74) ;
+    color: rgb(255, 255, 255) ;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+}
+.sample_class{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+   
+
+      font-family: "Sevillana", cursive;
+      font-weight: 400;
+      font-style: normal;
+}
+.box01{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: sticky;
+  top: 20px;
+  z-index: 1;
+}
+.box02{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  position: relative;
+  top: 10px;
+}
+
